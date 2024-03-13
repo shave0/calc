@@ -1,0 +1,31 @@
+
+.numberColumn{
+    display: flex;
+    flex-direction: row;
+}
+
+.numberContainer{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    display: flex;
+    aspect-ratio: 1 / 1;
+    width: 100px;
+    background-color: rgb(225, 225, 225);
+    gap: 4px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    display: flex;
+    
+}
