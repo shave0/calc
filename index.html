@@ -10,50 +10,77 @@
 <body>
     <div id="container">
         <div>
-            <div class="numberContainer">
-                <div class="display"></div>
-                <div class="numberColumn">
-                    <div class="number">
-                        7
+            <div class="mainContainer">
+                <div class="displayNumber">
+                    <div class="display" id="display"></div>
+                    <div class="numberColumn">
+                        <div class="number" onclick="getNumber(id)" id="7">
+                            7
+                        </div>
+                        <div class="number" onclick="getNumber(id)" id="8">
+                            8
+                        </div>
+                        <div class="number" onclick="getNumber(id)" id="9">
+                            9
+                        </div>
                     </div>
-                    <div class="number">
-                        8
+                    <div class="numberColumn">
+                        <div class="number" onclick="getNumber(id)" id="4">
+                            4
+                        </div>
+                        <div class="number" onclick="getNumber(id)" id="5">
+                            5
+                        </div>
+                        <div class="number" onclick="getNumber(id)" id="6">
+                            6
+                        </div>
                     </div>
-                    <div class="number">
-                        9
+                    <div class="numberColumn">
+                        <div class="number" onclick="getNumber(id)" id="1">
+                            1
+                        </div>
+                        <div class="number" onclick="getNumber(id)" id="2">
+                            2
+                        </div>
+                        <div class="number" onclick="getNumber(id)" id="3">
+                            3
+                        </div>
+                    </div>
+                    <div class="numberColumn">
+                        <div class="number" onclick="getNumber(id)" id=".">
+                            .
+                        </div>
+                        <div class="number" onclick="getNumber(id)" id="0">
+                            0
+                        </div>
+                        <div class="number" onclick="getNumber(id)" id="-">
+                            (-)
+                        </div>
                     </div>
                 </div>
-                <div class="numberColumn">
-                    <div class="number">
-                        4
+                <div class="operatorContainer">
+                    <div class="operator" onclick="getNumber(id)" id="+">
+                        +
                     </div>
-                    <div class="number">
-                        5
+                    <div class="operator" onclick="getNumber(id)" id="-">
+                        -
                     </div>
-                    <div class="number">
-                        6
+                    <div class="operator" onclick="getNumber(id)" id="*">
+                        *
                     </div>
-                </div>
-                <div class="numberColumn">
-                    <div class="number">
-                        1
+                    <div class="operator" onclick="getNumber(id)" id="/">
+                        /
                     </div>
-                    <div class="number">
-                        2
-                    </div>
-                    <div class="number">
-                        3
+                    <div class="operator" onclick="getNumber(id)" id="=">
+                        =
                     </div>
                 </div>
-                <div class="numberColumn">
-                    <div class="number">
-                        .
+                <div class="additionalButtons">
+                    <div class="operator" onclick="getNumber(id)" id="Delete">
+                        Delete
                     </div>
-                    <div class="number">
-                        0
-                    </div>
-                    <div class="number">
-                        (-)
+                    <div class="operator" onclick="getNumber(id)" id="Clear">
+                        Clear
                     </div>
                 </div>
             </div>

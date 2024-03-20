@@ -1,31 +1,75 @@
-
 .numberColumn{
     display: flex;
     flex-direction: row;
 }
 
-.numberContainer{
+.mainContainer{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 15vh;
+}
+
+.display{
+    display: flex;
+    height: 10vh;
+    width: 34vh;
+    background-color: rgb(245, 245, 245);
+    border-radius: 1vh;
+    margin: 1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.number, .operator{
+    display: flex;
+    height: 10vh;
+    width: 10vh;
+    background-color: #e1e1e1;
+    border-radius: 1vh;
+    margin: 1vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+}
+
+.operator{
+    background-color: #F88810;
+    color: #101010;
+}
+
+.operator:hover{
+    background-color: #eb9233;
+    color: #333333;
+}
+
+.operator:active{
+    background-color: #cf7d24;
+}
+
+.number:hover{
+    background-color:#CDCDCD;
+    color: #333333;
+}
+
+.number:active{
+    background-color:#b9b9b9;
+    color: #333333;
+}
+
+.operatorContainer, .additionalButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.displayNumber{
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.number{
-    display: flex;
-    aspect-ratio: 1 / 1;
-    width: 100px;
-    background-color: rgb(225, 225, 225);
-    gap: 4px;
-    border-radius: 10px;
-    text-align: center;
-    vertical-align: middle;
-    margin: 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-span{
-    display: flex;
-    
-}
